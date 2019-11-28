@@ -18,7 +18,7 @@ int cn = 0; // Variable para guardar datos del contador de objetos dentro del
 
 const char* ssid = "Nombre de su red WIFI";
 const char* password = "Contraseña de su red WIFI";
-const char* mqtt_server = "broker.mqtt-dashboard.com";
+const char* mqtt_server = "Servidor de su broker MQTT";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
