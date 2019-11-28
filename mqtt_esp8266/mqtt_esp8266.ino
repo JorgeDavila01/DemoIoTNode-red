@@ -16,8 +16,8 @@ int cn = 0; // Variable para guardar datos del contador de objetos dentro del
 
 // DECLARACION RED A LA CUAL SE VA A CONECTAR EL ESP8266 Y EL SERVIDOR MQTT.
 
-const char* ssid = "NDavila";
-const char* password = "davila0109";
+const char* ssid = "Nombre de su red WIFI";
+const char* password = "Contraseña de su red WIFI";
 const char* mqtt_server = "broker.mqtt-dashboard.com";
 
 WiFiClient espClient;
