@@ -200,7 +200,7 @@ void loop() {
   if (now - lastMsg > 1000) {
     lastMsg = now;
     ++value;
-    snprintf (msg, 50,"Distancia: %ld No Dato: %ld" ,distancia, value);
+    snprintf (msg, 50,"Distancia en cm: %ld No Dato: %ld" ,distancia, value);
     Serial.print("Publish message: ");
     Serial.println(msg);
     client.publish("Salida0109", msg);
