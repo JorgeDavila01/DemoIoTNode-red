@@ -22,6 +22,8 @@ const char* ssid = "Nombre de su red WIFI";
 const char* password = "Contraseña de su red WIFI";
 const char* mqtt_server = "Servidor de su broker MQTT";
 
+
+// DECLARACION DE LAS PROPIEDADES DEL MENSAJE MQTT 
 WiFiClient espClient;
 PubSubClient client(espClient);
 long lastMsg = 0;
